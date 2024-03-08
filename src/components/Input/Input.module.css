@@ -1,0 +1,13 @@
+.input {
+  display: flex;
+
+}
+
+.input input {
+  
+}
+
+.input button {
+  width: 90px;
+  background-color: var(--color-blue-dark);
+}
