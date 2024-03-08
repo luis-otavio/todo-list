@@ -1,7 +1,7 @@
 import styles from './Header.module.css'
 import Logo from '../../assets/images/todo_logo.svg'
 
-export function Header() {
+export const Header = () => {
   return (
     <>
       <div className={styles.header}>
@@ -9,4 +9,4 @@ export function Header() {
       </div>
     </>
   )
-}
+};

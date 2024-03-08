@@ -1,13 +1,33 @@
 .input {
   display: flex;
-
+  margin-top: -25px;
 }
 
-.input input {
-  
+.input > input {
+  width: 100%;
+  border-radius: 8px;
+  background-color: var(--color-gray-500);
+  color: var(--color-gray-300);
+  padding: 10px;
+  border: none;
 }
 
-.input button {
+.input > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 90px;
-  background-color: var(--color-blue-dark);
+  height: 54px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: .875rem;
+  color: var(--color-white);
+  background-color: var(--color-blueDark);
+  margin-left: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.input svg {
+  margin-left: 5px;
 }

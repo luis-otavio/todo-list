@@ -1,13 +1,11 @@
 import { Header } from "./components/Header"
 import { Tasks } from "./components/Tasks"
 
-function App() {
+export const App = () => {
   return (
     <>
       <Header />
       <Tasks />
     </>
   )
-}
-
-export default App
+};
